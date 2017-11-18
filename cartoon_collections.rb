@@ -7,7 +7,7 @@ end
 def summon_captain_planet(elements)# code an argument here
   elements.collect do |element|
     exclamation = element + "!"
-    exclamation.capitalize 
+    exclamation.capitalize
   end
 end
 
