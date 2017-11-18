@@ -4,8 +4,11 @@ def roll_call_dwarves(dwarves)# code an argument here
   end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(elements)# code an argument here
+  elements.collect do |element|
+    exclamation = element + "!"
+    exclamation.capitalize 
+  end
 end
 
 def long_planeteer_calls# code an argument here
